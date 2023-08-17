@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Contact Us Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<h1 id="title">
+  Get in Touch
+</h1>
+<body>
+
+<p id="description">
+  For appearance enquiries, please tick the <strong>Appearance Enquiry</strong> box, for General Enquiries, please tick the <strong>General Enquiries</strong> box. We will endeavour to respond to your query within 3-5 working days. Thank you for your patience!
+</p>
+  
+<form id="survey-form">
+  <div class="mb-3 mt-3">
+  <label for="name" class="form-label">Enter your name: </label>
+  <input required id="name" class="form-control" type="text" placeholder="John Doe"/>
+    <label for="email" class="form-label"> Enter your email address: </label> <input required id="email" class="form-control" type="email" placeholder="johndoe@gmail.com"/>
+    <label for="number" class="form-label"> Enter your age:</label> <input id="number" class="form-control" type="number" min="4" max="102" placeholder="6"/> 
+  </div>
+  <div class="mb-3">
+    <label for="referrer">How did you hear about us? </label>
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Website</option>
+            <option value="2">Social Media</option>
+            <option value="3">Other</option>
+          </select>
+  </div>
+  <div class="form-check mb-3">
+  <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="1" /> Appearance Enquiry</label>
+    <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="2" /> General Enquiry</label>
+  </div>   
+    <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" class="inline" value="1">I accept the Terms & Conditions</label>
+    <label for="cookies-policy"><input id="cookies-policy" type="checkbox" class="inline" value="2"> I consent to email marketing from Leaps Ahead</label>
+    <label for="email-marketing"><input id="email-marketing" type="checkbox" class="inline" value="3"> I consent to email marketing from partner organisations</label>
+    
+    <label for="comments">How can we help you?:<textarea class="form-control" rows="5" id="comments" type="textarea" placeholder="e.g. Tell us about your enquiry here..."></textarea></label>
+<label for="submit"><input id="btn-13" type="submit"></label>
+    </form>
+  </div>
+  <div class="FAQs">
+    <h2>Frequently Asked Questions</h2>
+    <button class="accordion">How do I get involved?</button>
+<div class="panel">
+  <p>Lorem ipsum olor sit amet, consectetur adipiscing elit. Ut commodo turpis et nunc elementum sodales. Donec porttitor mattis nulla a accumsan. Aenean sit amet augue eu neque dapibus molestie. Vivamus sit amet eros vel metus interdum hendrerit. Donec ut ipsum velit. Ut consectetur volutpat ligula, id imperdiet libero rhoncus at.</p>
+</div>
+
+<button class="accordion">Where are you based?</button>
+<div class="panel">
+  <p>Lorem ipsum olor sit amet, consectetur adipiscing elit. Ut commodo turpis et nunc elementum sodales. Donec porttitor mattis nulla a accumsan. Aenean sit amet augue eu neque dapibus molestie. Vivamus sit amet eros vel metus interdum hendrerit. Donec ut ipsum velit.</p>
+</div>
+
+<button class="accordion">How long are the sessions?</button>
+<div class="panel">
+  <p>Lorem ipsum olor sit amet, consectetur adipiscing elit. Ut commodo turpis et nunc elementum sodales. Donec porttitor mattis nulla a accumsan. Aenean sit amet augue eu neque dapibus molestie. Vivamus sit amet eros vel metus interdum hendrerit. Donec ut ipsum velit. </p>
+</div>
+    
+<button class="accordion">Who do you work with?</button>
+<div class="panel">
+  <p>Lorem ipsum olor sit amet, consectetur adipiscing elit. Ut commodo turpis et nunc elementum sodales. Donec porttitor mattis nulla a accumsan. Aenean sit amet augue eu neque dapibus molestie. Vivamus sit amet eros vel metus interdum hendrerit.</p>
+</div>    
+    
+    </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
